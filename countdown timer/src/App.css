@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #fe4fd8, #00f2fe);
+  color: #fff;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdown{
+ display:flex;
+ justify-content:center;
+ flex-direction: row;
+ align-items: center;
+
+}
+.countdown-card {
+  background: linear-gradient(to bottom right, #a875ff, #7eeeff);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  width: 80px;
+}
+
+.countdown-card span {
+  font-size: auto;
+  font-weight: bold;
+}
+
+input[type="datetime-local"],button{
+  border:1em solid white;
+  border-radius:5em;
+
+}
+h1 > span{
+color: #e318ea;
+}
